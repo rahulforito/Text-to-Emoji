@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Text <span> <img src="./Arrow_right.svg.png" alt=""></span>Emoji</h1>
+        <div id="endec-div">
+            <h3 id="enc-btn"><span><img src="./lock.png" alt=""></span>Encrypt Text</h3>
+            <h3 id="dec-btn"><span><img src="./open-lock.jpeg.webp" alt=""></span>Decrypt Text</h3>
+        </div>
+        <div id="encryption">
+            <h5>1. Type a Message</h5>
+            <textarea placeholder="Write here" name="" id="text message" cols="30" rows="10"></textarea>
+            <h5>2. Set a Password</h5>
+            <input type="password" name="" id="password">
+            <button id="encrypt-btn"> <span><img src="./lock.png" alt=""></span>Encrypt Text</button>
+            </button>
+        </div>
+        <div id="decryption">
+            <h5>1. Paste Encrypted emojis</h5>
+            <textarea placeholder="Write here" name="" id="emoji message" cols="30" rows="10"></textarea>
+            <h5>2. Type a Password</h5>
+            <input type="password" name="" id="final password">
+            <button id="decrypt-btn"> <span><img src="./open-lock.jpeg.webp" alt=""></span>Decrypt Text</button>
+        </div>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body> 
+</html> 
